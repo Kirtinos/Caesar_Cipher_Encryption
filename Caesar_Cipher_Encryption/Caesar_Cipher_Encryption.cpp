@@ -30,6 +30,7 @@ int main()
                 }
             }
             std::cout << result;
+            result = "";
         }
         if (fwths == 2) {
             std::cout << "Decrypted message: ";
@@ -43,6 +44,7 @@ int main()
                 
             }
             std::cout << result;
+            result = "";
         }
         
         std::cout << "\n\nEnter '1' To Input new message, '2' to exit : " << std::endl;
